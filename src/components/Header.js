@@ -5,8 +5,9 @@ import "./Header.css";
 const Header = () => {
     return (
         <header>
-            <div className="firstMessage">I will make you a Front Developer</div>
-            <img src={Image} alt="logo"/>
+            <div className="firstMessage"><p>I will make you a Front Developer</p></div>
+            <div className="myImage"><img src={Image} alt="logo"/></div>
+            {/* <div className="clear"></div> */}
         </header>
     )
 }

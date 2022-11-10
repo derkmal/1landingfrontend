@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
-header img {
-    width: 3%;
+.clear {
+    clear: both;
+}
+
+header {
+    position: relative;
+    height: 50px;
+    background-color: cadetblue;
+    /* padding: 20px; */
+}
+
+header .firstMessage {
+    position: absolute;
+    /* left: 10px; */
+    margin: 10px 20px;
+}
+
+header .myImage img {
+    position: absolute;
+    width: 2%;
+    right: 20px;
+    margin: 10px 20px;
 }
