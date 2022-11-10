@@ -10,20 +10,24 @@
 
 header {
     position: relative;
-    height: 50px;
+    height: 80px;
     background-color: cadetblue;
-    /* padding: 20px; */
+    padding: 10px;
+    z-index: 0;
 }
 
-header .firstMessage {
+header .firstMessage p {
     position: absolute;
-    /* left: 10px; */
-    margin: 10px 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 header .myImage img {
     position: absolute;
     width: 2%;
-    right: 20px;
-    margin: 10px 20px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    /* right: 20px; */
+    /* margin: 10px 20px; */
 }
