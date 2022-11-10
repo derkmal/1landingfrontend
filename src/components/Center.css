@@ -10,7 +10,7 @@
 
 .center {
     position: relative;
-    background-color: beige;
+    background-color: white;
     height: 400px;
     z-index: 1;
 }
@@ -18,22 +18,55 @@
 .form-container {
     position: relative;
     width: 400px;
-    /* height: calc(100% + 40px); */
-    height: 425px;
-    border: 5px solid;
+    height: 440px;
+    border: 5px solid rgba(5, 16, 16, 0.4);
     border-radius: 3px;
-    background-color: wheat;
+    background-color: cadetblue;
     top: 50%;
     float: right;
-    margin-right: 40px;
+    right: 50px;
     transform: translateY(-50%);
+}
+
+.form-container {
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
 }
 
 .form-container h2 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-form {
-    width: 400px;
-    display: block;
+input[type=text] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: white;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: rgb(53, 173, 177);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(39, 138, 142);
+}
+
+input[type=submit]:active {
+    transform: scale(0.99);
+}
+
+input:focus {
+    outline: none;
 }

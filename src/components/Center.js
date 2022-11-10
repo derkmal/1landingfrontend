@@ -9,6 +9,7 @@ const Center = () => {
                 <form>
                     <input type='text' name='name' placeholder="Name"></input>
                     <input type='text' name='email' placeholder='Email'></input>
+                    <input type='submit' value='OK. I Want the Course!'></input>
                 </form>            
             </div>
         </div>
