@@ -13,7 +13,7 @@ header {
     height: 80px;
     background-color: cadetblue;
     padding: 10px;
-    z-index: 0;
+    z-index: -5;
 }
 
 header .firstMessage p {
@@ -28,6 +28,4 @@ header .myImage img {
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    /* right: 20px; */
-    /* margin: 10px 20px; */
 }

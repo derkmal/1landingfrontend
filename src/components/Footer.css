@@ -8,10 +8,10 @@
     clear: both;
 }
 
-/* .footer {
+.footer {
     position: relative;
     background-color: cadetblue;
     height: 175px;
-    z-index: 0;
-} */
+    z-index: -1;
+}
 /* height: calc(100% - 450px); */

@@ -9,16 +9,24 @@
 }
 
 .center {
+    position: relative;
     background-color: beige;
     height: 400px;
+    z-index: 1;
 }
 
 .form-container {
-    z-index: 10;
+    position: relative;
     width: 400px;
-    height: calc(100% + 30px);
-    border: 4px solid;
+    /* height: calc(100% + 40px); */
+    height: 425px;
+    border: 5px solid;
     border-radius: 3px;
+    background-color: wheat;
+    top: 50%;
+    float: right;
+    margin-right: 40px;
+    transform: translateY(-50%);
 }
 
 .form-container h2 {
