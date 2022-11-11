@@ -11,13 +11,14 @@
 header {
     position: relative;
     height: 80px;
-    background-color: cadetblue;
+    background-color: black;
     padding: 10px;
     z-index: -5;
 }
 
 header .firstMessage p {
     position: absolute;
+    color: white;
     font-size: 22px;
     font-weight: 500;
     top: 50%;
