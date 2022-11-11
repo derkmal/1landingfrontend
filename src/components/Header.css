@@ -18,6 +18,8 @@ header {
 
 header .firstMessage p {
     position: absolute;
+    font-size: 22px;
+    font-weight: 500;
     top: 50%;
     transform: translateY(-50%);
 }

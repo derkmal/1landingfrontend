@@ -21,7 +21,7 @@
     height: 440px;
     border: 5px solid rgba(5, 16, 16, 0.4);
     border-radius: 3px;
-    background-color: cadetblue;
+    background-color: rgb(149, 165, 166);
     top: 50%;
     float: right;
     right: 50px;
@@ -37,11 +37,12 @@
 .form-container h2 {
     text-align: center;
     margin-bottom: 10px;
+    color: rgb(245, 238, 231);
 }
 
 input[type=text] {
     width: 100%;
-    padding: 5px;
+    padding: 8px;
     margin-bottom: 5px;
     border: none;
     border-radius: 3px;
@@ -51,16 +52,17 @@ input[type=text] {
 
 input[type=submit] {
     width: 100%;
-    padding: 5px;
+    padding: 9px;
     cursor: pointer;
+    color: rgb(74, 70, 65);
     border: none;
     border-radius: 3px;
     font-size: 20px;
-    background-color: rgb(53, 173, 177);
+    background-color: rgb(225, 213, 54);
 }
 
 input[type=submit]:hover {
-    background-color: rgb(39, 138, 142);
+    background-color: rgb(40, 123, 134);
 }
 
 input[type=submit]:active {
