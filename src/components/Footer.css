@@ -10,7 +10,7 @@
 
 .footer {
     position: relative;
-    background-color: black;
+    background-color: rgb(3, 16, 29);
     height: 175px;
     z-index: -1;
 }
