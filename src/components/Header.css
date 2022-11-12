@@ -28,7 +28,7 @@ header .firstMessage p {
 }
 
 header .firstMessage span {
-    color: yellow;
+    color: rgb(214, 203, 51);
     font-family: 'Source Serif 4', serif;
     font-style: italic;
     font-weight: bold;

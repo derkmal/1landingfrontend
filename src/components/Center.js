@@ -6,7 +6,7 @@ const Center = () => {
     return (
         <div className="center">
             <div className="myText">
-                <h1>The complete guide that makes you a Fron-end Developer</h1>
+                <h1>The complete guide that makes you a Front-end Developer</h1>
                 <p>Find out the necessary technologies to land your first job - you don't need to know everthing!</p>
                 <p>You will learn to create your own portifolio page to showcase you work to clients and businesses.</p>
                 <p>You will master the combination of html, css and javascript to be more productive in less time.</p>
