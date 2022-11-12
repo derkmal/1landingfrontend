@@ -22,7 +22,7 @@ const Center = () => {
                 </form>            
             </div>
 
-            {/* <div className="clear"></div> */}
+            <div className="clear"></div>
         </div>
     )
 }
