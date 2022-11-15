@@ -70,12 +70,13 @@ input[type=submit] {
     width: 100%;
     padding: 9px;
     cursor: pointer;
-    color: rgb(13, 44, 84);
+    color: #111d2c;
     font-weight: bold;
     border: none;
     border-radius: 3px;
     font-size: 20px;
-    background-color: rgb(214, 203, 51);
+    background-color: #C29B51;
+    /* rgb(214, 203, 51) */
 }
 
 input[type=submit]:hover {

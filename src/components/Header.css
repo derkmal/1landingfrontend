@@ -28,10 +28,11 @@ header .firstMessage p {
 }
 
 header .firstMessage span {
-    color: rgb(214, 203, 51);
+    color: #C29B51; 
     font-family: 'Source Serif 4', serif;
     font-style: italic;
     font-weight: bold;
+    /* rgb(214, 203, 51) */
 }
 
 header .myImage img {
