@@ -6,9 +6,9 @@ const Center = () => {
     return (
         <div className="center">
             <div className="myText">
-                <h1>The Complete Front-end Developer Guide<br/> Know the Path from Beginner to Professinal</h1>
-                <p>This course introduces you the basic technologies to land your first job - you don't need to know everthing!</p>
-                <p>You will learn to create your own portifolio to showcase your work to clients and businesses.</p>
+                <h1>THE COMPLETE FRONT-END DEVELOPER GUIDE<br/>A PATH FROM BEGINNER TO PROFESSINAL</h1>
+                <p>Know the basic technologies to land your first job - you don't need to know everthing!</p>
+                <p>We'll create your own portifolio to showcase your work to clients and businesses.</p>
                 <p>You will master html, css and javascript to be more productive in less time.</p>
                 <p>As you will progress in the course you will be able to produce tangible results in real-time. </p>
                 <p>If you alread have the basics, no problem, we can develop your skills to be proficient.</p>

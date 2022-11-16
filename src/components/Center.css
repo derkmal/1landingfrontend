@@ -18,17 +18,22 @@
 .myText {
     width: 60%;
     float: left;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .myText h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-family: 'Hind Vadodara', sans-serif;
+    line-height: 1.2;
+    margin-top: 40px;
+    margin-bottom: 40px;
     color: rgb(210, 217, 226);
 }
 
 .myText p {
     color: rgb(210, 217, 226);
+    font-size: 22px;
+    font-family: 'Catamaran', sans-serif;
+    line-height: 1.6;
 }
 
 .form-container {
@@ -40,7 +45,7 @@
     background-color: #5180C1;
     top: 50%;
     float: right;
-    right: 50px;
+    right: 30px;
     transform: translateY(-50%);
 }
 
@@ -51,6 +56,7 @@
 }
 
 .form-container h2 {
+    font-family: 'Hind Vadodara', sans-serif;
     text-align: center;
     margin-bottom: 10px;
     color: rgb(216, 220, 226);
@@ -64,6 +70,7 @@ input[type=text] {
     border-radius: 3px;
     font-size: 20px;
     background-color: white;
+    font-family: 'Catamaran', sans-serif;
 }
 
 input[type=submit] {
@@ -76,6 +83,7 @@ input[type=submit] {
     border-radius: 3px;
     font-size: 20px;
     background-color: #C29B51;
+    font-family: 'Catamaran', sans-serif;
     /* rgb(214, 203, 51) */
 }
 
