@@ -25,15 +25,16 @@
     font-family: 'Hind Vadodara', sans-serif;
     line-height: 1.2;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: rgb(210, 217, 226);
 }
 
-.myText p {
+.myText ul {
     color: rgb(210, 217, 226);
     font-size: 22px;
     font-family: 'Catamaran', sans-serif;
-    line-height: 1.6;
+    /* line-height: 1.6; */
+    margin-left: 20px;
 }
 
 .form-container {
@@ -114,8 +115,8 @@ input:focus {
         text-align: center;
         color: wheat;
     }
-    .myText p {
-        text-align: center;
+    .myText ul {
+        /* text-align: center; */
         color: yellow;
     }
     /* p:nth-child(4){
@@ -124,7 +125,17 @@ input:focus {
     .form-container {
         position: absolute;
         width: 70%;
-        /* top: 10px; */
+        margin-top: 400px;
+        /* margin: 0 auto; */
+        transform: none;
+    }
+}
+
+@media screen and(max-width: 900px) {
+    .form-container {
+        /* position: absolute; */
+        width: 70%;
+        top: 600px;
         /* margin: 10px auto; */
         /* float: left; */
         transform: none;
