@@ -43,3 +43,14 @@ header .myImage img {
     right: 10px;
     transform: translateY(-50%);
 }
+
+@media screen and (max-width: 800px) {
+    header .firstMessage p {
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+    header .firstMessage span {
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+}

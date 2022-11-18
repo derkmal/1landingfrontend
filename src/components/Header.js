@@ -8,7 +8,6 @@ const Header = () => {
         <header>
             <div className="firstMessage"><p>The truth<br/> <span>about being a Front-end Developer</span></p></div>
             <div className="myImage"><img src={Image} alt="logo"/></div>
-            {/* <div className="clear"></div> */}
         </header>
     )
 }

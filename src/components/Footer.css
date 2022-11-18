@@ -11,7 +11,10 @@
 .footer {
     position: relative;
     background-color: rgb(3, 16, 29);
-    height: 175px;
+    min-height: 125px;
+    height: auto !important;
+    height: 125px;
     z-index: -1;
 }
 /* height: calc(100% - 450px); */
+/* min-height: 575px; https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c  */
