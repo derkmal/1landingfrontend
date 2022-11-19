@@ -11,21 +11,28 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200&display=swap'); */
 
 header {
-    /* position: relative; */
     height: 100px;
     background-color: rgb(15, 34, 59);
     /* padding: 10px; */
     /* z-index: -5; */
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header .firstMessage p {
+/* header .firstMessage {
+    flex: 8;
+}
+
+header .myImage {
+    flex: 1;
+} */
+
+header .firstMessage p {   /* Mit flex kan Child nicht 'position' benutzen */
     font-family: 'Catamaran', sans-serif;
-    position: absolute;
     color: white;
     font-size: 1.414rem;
     font-weight: 500;
-    flex: 3;
     /* top: 50%;
     transform: translateY(-50%); */
 }
@@ -37,26 +44,41 @@ header .firstMessage span {
     color: #C29B51; 
 }
 
-header .myImage img {
-    /* position: absolute; */
+header .myImage img {  /* Das Child kann 'Position' nicht mit Flex verwenden */
     width: 10%;
-    flex: 1;
     /* right: 10px; */
     /* top: 50%; */
     /* transform: translateY(-50%); */
 }
 
+@media screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }    
+    header .firstMessage {
+        /* margin: 0 auto; */
+        align-self: center;
+    }
+    header .myImage {
+        /* margin: 0 auto; */
+        align-self: center;
+    }
+    header .myImage img {
+        width: 10%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
-    /* header .firstMessage p {
-        text-align: center;
+    header .firstMessage {
+         margin: 0 auto;
+        /* text-align: center; */
+    }
+    header .myImage {
         margin: 0 auto;
     }
-    header .firstMessage span {
-        text-align: center;
-        margin: 0 auto;
-    } */
 }
