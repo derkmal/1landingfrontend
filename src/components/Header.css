@@ -4,27 +4,21 @@
     box-sizing: border-box;
 }
 
-.clear {
-    clear: both;
-}
-
 /* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200&display=swap'); */
 
 header {
     height: 100px;
     background-color: rgb(15, 34, 59);
-    /* padding: 10px; */
-    /* z-index: -5; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 /* header .firstMessage {
-    flex: 8;
-}
+    flex: 1;
+} */
 
-header .myImage {
+/* header .myImage {
     flex: 1;
 } */
 
@@ -75,10 +69,9 @@ header .myImage img {  /* Das Child kann 'Position' nicht mit Flex verwenden */
         /* flex-wrap: wrap; */
     }
     header .firstMessage {
-         margin: 0 auto;
-        /* text-align: center; */
+        align-self: center;
     }
     header .myImage {
-        margin: 0 auto;
+        align-self: center;
     }
 }
