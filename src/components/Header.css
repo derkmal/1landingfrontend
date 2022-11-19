@@ -38,40 +38,12 @@ header .firstMessage span {
     color: #C29B51; 
 }
 
-header .myImage img {  /* Das Child kann 'Position' nicht mit Flex verwenden */
-    width: 10%;
-    /* right: 10px; */
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
-}
+
 
 @media screen and (max-width: 1200px) {
     header {
         flex-direction: column;
         /* flex-wrap: wrap; */
     }    
-    header .firstMessage {
-        /* margin: 0 auto; */
-        align-self: center;
-    }
-    header .myImage {
-        /* margin: 0 auto; */
-        align-self: center;
-    }
-    header .myImage img {
-        width: 10%;
-    }
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        /* flex-wrap: wrap; */
-    }
-    header .firstMessage {
-        align-self: center;
-    }
-    header .myImage {
-        align-self: center;
-    }
-}
