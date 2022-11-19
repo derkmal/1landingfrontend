@@ -32,8 +32,8 @@ header .firstMessage span {
 
 header .myImage img {   /* Das Child kann 'Position' nicht mit Flex verwenden */
     width: 100%;
-    max-width: 40px;
-    /* height: auto; */
+    max-width: 40px;    /* Wir müssen Pixel verwenden, um 'justify-content' zu funktionieren. */
+    height: auto !important;
 }
 
 @media screen and (max-width: 1200px) {
@@ -44,6 +44,12 @@ header .myImage img {   /* Das Child kann 'Position' nicht mit Flex verwenden */
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .myImage img {
+        width: 30px;
     }
 }
 
