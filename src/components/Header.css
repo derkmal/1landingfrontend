@@ -38,8 +38,6 @@ header .firstMessage span {
     color: #C29B51; 
 }
 
-
-
 @media screen and (max-width: 1200px) {
     header {
         flex-direction: column;
