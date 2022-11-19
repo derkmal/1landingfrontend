@@ -6,7 +6,7 @@ const Center = () => {
     return (
         <div className="center">
             <div className="myText">
-                <h1>THE COMPLETE FRONT-END DEVELOPER GUIDE,<br/>A PATH FROM BEGINNER TO PROFESSINAL</h1>
+                <h1>THE COMPLETE FRONT-END DEVELOPER GUIDE,<br/>A PATH FROM BEGINNER TO PROFESSIONAL</h1>
                 {/* <ul> */}
                     <p>Know the basic technologies to land your first job - you don't need to know everthing!</p>
                     <p>We'll create your own portifolio to showcase your work to clients and businesses.</p>
