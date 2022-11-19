@@ -30,7 +30,7 @@ header .firstMessage span {
     color: #C29B51; 
 }
 
-header .myImage img {   /* Das Child kann 'Position' nicht mit Flex verwenden */
+header .myImage img {   /* Das Child kann 'Position propriety' nicht mit Flex verwenden */
     width: 100%;
     max-width: 40px;    /* Wir müssen Pixel verwenden, um 'justify-content' zu funktionieren. */
     height: auto !important;

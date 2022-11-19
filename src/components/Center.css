@@ -19,10 +19,14 @@
     /* flex-wrap: nowrap; */
 }
 
-.myText {  /* Das Child kann 'Position' nicht mit Flex verwenden */
+.myText {  /* Das Child kann 'Position propriety' nicht mit Flex verwenden */
     flex: 3; /* 'width' oder 'flex-basis' oder flex-grow */
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    /* padding: 16px; */
 }
 
 .myText h1 {
@@ -30,7 +34,8 @@
     font-size: 1.999rem;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 30px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px; */
     color: rgb(210, 217, 226);
 }
 
@@ -38,11 +43,11 @@
     font-family: 'Catamaran', sans-serif;
     font-size: 1.414rem;
     font-weight: 300;
-    line-height: 1.5;
+    line-height: 1.8;
     color: rgb(210, 217, 226);
 }
 
-.form-container {   /* Das Child kann 'Position' nicht mit Flex verwenden */
+.form-container {   /* Das Child kann 'Position propriety' nicht mit Flex verwenden */
     flex:1; /* 'width' oder 'flex-basis' oder flex-grow  */
     position: relative;
     height: 440px;
@@ -101,6 +106,28 @@ input:focus {
     outline: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .center {
+        flex-direction: column;
+        overflow: auto;
+    }   
+    .myText h1 {
+        margin-top: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .myText p {
+        text-align: center;
+    }
+    .form-container {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 1%;
+        top: 20px;
+        transform: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .center {
         flex-direction: column;
@@ -133,43 +160,5 @@ input:focus {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .center {
-        flex-direction: column;
-        overflow: auto;
-    }   
-    .myText h1 {
-        text-align: center;
-    }
-    .myText p {
-        text-align: center;
-    }
-    .form-container {
-        width: 50%;
-        margin: 0 auto;
-        padding: 0 1%;
-        top: 20px;
-        transform: none;
-    }
-}
 
-@media screen and (max-width: 769px) {
-    .center {
-        flex-direction: column;
-        overflow: auto;
-    }   
-    .myText h1 {
-        text-align: center;
-    }
-    .myText p {
-        text-align: center;
-    }
-    .form-container {
-        width: 70%;
-        margin: 0 auto;
-        padding: 0 1%;
-        top: 20px;
-        transform: none;
-    }
-}
 
