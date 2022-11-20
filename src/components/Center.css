@@ -48,51 +48,52 @@
     flex:1; /* 'width' oder 'flex-basis' oder flex-grow  */
     position: relative;
     height: 440px;
-    padding: 0 0.5%;
+    padding: 10px;
     border-radius: 3px;
-    background-color: #2c72bd;
+    background-color: #5180C1;
     margin-right: 10px;
     top: 50%;
     transform: translateY(-50%);    
 }
 
 .form-container h2 {
-    font-family: 'Hind Vadodara', sans-serif;
+    font-family: Futura;  
     font-size: 1.414rem;
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: rgb(216, 220, 226);
 }
 
 input[type=text] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 1.2rem;  /* 1.414rem */
+    font-weight: 100;
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
     border: none;
     border-radius: 3px;
     background-color: #c3dffb;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.414rem;
 
 }
 
 input[type=submit] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 1.414rem;
+    font-weight: 500;
     width: 100%;
     padding: 9px;
     cursor: pointer;
     color: #111d2c;
     border: none;
     border-radius: 3px;
-    background-color: #C29B51;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 1.414rem;
-    font-weight: 600;
+    background-color: rgb(205, 194, 50);
 }
 
 input[type=submit]:hover {
-    background-color: rgb(205, 194, 50);
+    background-color: rgb(197, 187, 47);
 }
 
 input[type=submit]:active {
