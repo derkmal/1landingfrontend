@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/1landingfrontend/static/css/main.0e4738ee.css",
-    "main.js": "/1landingfrontend/static/js/main.ce8b092d.js",
+    "main.css": "/1landingfrontend/static/css/main.5fb11dac.css",
+    "main.js": "/1landingfrontend/static/js/main.ca5088d8.js",
     "static/js/787.a01a3a43.chunk.js": "/1landingfrontend/static/js/787.a01a3a43.chunk.js",
     "static/media/Símbolo-Estilizado-BONUS.jpg": "/1landingfrontend/static/media/Símbolo-Estilizado-BONUS.fa3209f9c10386b8fe98.jpg",
     "index.html": "/1landingfrontend/index.html",
-    "main.0e4738ee.css.map": "/1landingfrontend/static/css/main.0e4738ee.css.map",
-    "main.ce8b092d.js.map": "/1landingfrontend/static/js/main.ce8b092d.js.map",
+    "main.5fb11dac.css.map": "/1landingfrontend/static/css/main.5fb11dac.css.map",
+    "main.ca5088d8.js.map": "/1landingfrontend/static/js/main.ca5088d8.js.map",
     "787.a01a3a43.chunk.js.map": "/1landingfrontend/static/js/787.a01a3a43.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4738ee.css",
-    "static/js/main.ce8b092d.js"
+    "static/css/main.5fb11dac.css",
+    "static/js/main.ca5088d8.js"
   ]
 }
