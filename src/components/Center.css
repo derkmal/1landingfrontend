@@ -140,9 +140,12 @@ input:focus {
     outline: none;
 }
 
-.form-container h3 , .garanteed {
+.form-container .garanteed {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
     font-style: italic;
+    font-size: 1rem;
+    font-weight: 3400;
+    line-height: 1.2;
 }
 
 @media screen and (max-width: 1200px) {
