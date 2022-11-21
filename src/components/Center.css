@@ -87,6 +87,7 @@
     border-bottom: 1px solid rgb(216, 220, 226);
     width: 75%;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .form-container h3 {
@@ -95,10 +96,10 @@
     font-weight: 300;
     line-height: 1.2;
     text-align: center;
-    margin-top: 15px;
     margin-bottom: 15px;
     color: rgb(216, 220, 226);
 }
+
 
 input[type=text] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
@@ -110,20 +111,21 @@ input[type=text] {
     border: none;
     border-radius: 3px;
     background-color: #e2eefa;
-
+    
 }
 
 input[type=submit] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-    font-size: 1.414rem;
+    font-size: 1.3rem;
     font-weight: 500;
     width: 100%;
     padding: 9px;
     cursor: pointer;
-    color: #0d1622;
+    color: #091018;
     border: none;
     border-radius: 3px;
     background-color: rgb(205, 194, 50);
+    margin-bottom: 15px;
 }
 
 input[type=submit]:hover {
@@ -136,6 +138,11 @@ input[type=submit]:active {
 
 input:focus {
     outline: none;
+}
+
+.form-container h3 , .garanteed {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-style: italic;
 }
 
 @media screen and (max-width: 1200px) {

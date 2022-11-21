@@ -28,6 +28,8 @@ const Center = () => {
                     <input type='text' name='email' placeholder='Email'></input>
                     <input type='submit' value='I Want to be a Web Developer!'></input>
                 </form>  
+
+                <h3 className="garanteed">Enter your name and email<br/> to buy the book</h3>
             </div>
 
             {/* <div className="clear"></div> */}
