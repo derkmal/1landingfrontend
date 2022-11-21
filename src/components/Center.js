@@ -17,7 +17,9 @@ const Center = () => {
             </div>
 
             <div className="form-container">
-                <h2>Enter your name and email<br/> to get the book</h2>
+                <h2>Get this Special Offer for Only!</h2>
+                <p className="myOffer"><s>$600</s> $400</p>
+                <h3>Enter your name and email<br/> to get the book</h3>
                 <form>
                     <input type='text' name='name' placeholder="Name"></input>
                     <input type='text' name='email' placeholder='Email'></input>

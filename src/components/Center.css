@@ -57,9 +57,36 @@
 }
 
 .form-container h2 {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: Futura;  
+    font-size: 1.45rem;
+    color: rgb(216, 220, 226);
+    text-align: center;
+}
+
+.myOffer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: rgb(205, 194, 50);
+    border-radius: 3px;
+    padding: 5px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.myOffer s {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: #0d1622;
+}
+
+.form-container h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;  
     font-size: 1.414rem;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 1.2;
     text-align: center;
     margin-bottom: 15px;
