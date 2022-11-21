@@ -58,8 +58,8 @@
 
 .form-container h2 {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: Futura;  
-    font-size: 1.45rem;
+    /* font-family: Futura;   */
+    font-size: 1.67rem;
     color: rgb(216, 220, 226);
     text-align: center;
 }
@@ -83,12 +83,19 @@
     color: #0d1622;
 }
 
+.separationLine {
+    border-bottom: 1px solid rgb(216, 220, 226);
+    width: 75%;
+    margin: 0 auto;
+}
+
 .form-container h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;  
     font-size: 1.414rem;
     font-weight: 300;
     line-height: 1.2;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 15px;
     color: rgb(216, 220, 226);
 }
