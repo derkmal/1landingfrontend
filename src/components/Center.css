@@ -46,8 +46,8 @@
 
 .form-container {   /* Das Child kann 'Position propriety' nicht mit Flex verwenden */
     flex:1; /* 'width' oder 'flex-basis' oder flex-grow  */
-    display: flex;
-    flex-direction: column;
+    display: flex;  
+    flex-direction: column; /* Setzen Sie erst den Abstand zwischen Elemente mit 'margin', dann setzen Sie 'column' */
     justify-content: space-around;
     position: relative;
     height: 440px;

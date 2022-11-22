@@ -40,11 +40,11 @@ header .myImage img {   /* Das Child kann 'Position propriety' nicht mit Flex ve
     header {
         flex-direction: column;
     }    
-    header .myImage img {  /* center image - w3schools */
+    /* header .myImage img {    center image - w3schools 
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
