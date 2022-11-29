@@ -27,6 +27,7 @@ const Center = () => {
                 <h3>Enter your name and email<br/> to buy the book</h3>
                 <form>
                     <input type='text' name='name' placeholder="Name"></input>
+                    
                     <input type='text' name='email' placeholder='Email'></input>
                     <input type='submit' value='I Want to be a Web Developer!' 
                         onClick={()=> setMessage(alert(message +'Sie haben ihre Nachricht erfolgreich gesendet!'))}>
