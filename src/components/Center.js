@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState} from "react";
 import "./Center.css";
 
 
 const Center = () => {
+    const [message, setMessage] = useState();
+
     return (
         <div className="center">
             <div className="myText">
@@ -26,7 +28,10 @@ const Center = () => {
                 <form>
                     <input type='text' name='name' placeholder="Name"></input>
                     <input type='text' name='email' placeholder='Email'></input>
-                    <input type='submit' value='I Want to be a Web Developer!'></input>
+                    <input type='submit' value='I Want to be a Web Developer!' 
+                        onClick={()=> setMessage(alert(message +'Sie haben ihre Nachricht erfolgreich gesendet!'))}>
+                    </input>
+                    <div className="messageSent">{message}</div>
                 </form>  
 
                 <h3 className="garanteed">With us, all your data is 100% private.</h3>
